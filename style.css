@@ -1,0 +1,61 @@
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fonttheme {
+    color:white;
+    font-family: serif;
+    
+}
+h1{
+    font-size: 120px;
+    font-style:italic;
+
+  
+}
+.headers{
+    font-size: 40px !important;
+    font-family: sans-serif;
+}
+
+.features{
+ 
+    width: 350px;
+    height: 250px;
+    border-radius: 5%;
+}
+.circlefeatures{
+    position: absolute;
+    top: -10;
+    left: -10;
+    width: 380px;
+    height: 280px;
+  
+}
+.content{
+    font-size: 25px;
+    font-family: sans-serif;
+    color:grey;
+    width: 350px;
+    text-align: justify;
+}
+.crousel-height{
+    height: 800px;
+    width: auto;
+}
+.checked {
+    color: orange;
+  }
+
+.background{
+
+    background-image: url('./assets/Living-in-Dahab.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center; 
+    height: 100vh;
+    /* background-size: 100% 85vh ;
+    height: 100vh; */
+
+}
